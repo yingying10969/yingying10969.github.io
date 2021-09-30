@@ -1,0 +1,37 @@
+/*
+#1B182E - Dark Blue
+#554A56 - Grey
+#7F557C - Purple
+#A1B9C8 - Blue
+#F1F1F1 - Light grey/white 
+*/
+
+/* Global Styles
+------------------------------------------------*/
+h1 {
+  background-color: #554a56;
+}
+
+/* Header
+------------------------------------------------*/
+.menu-bar {
+  background-color: #7f557c;
+}
+
+/* Projects
+------------------------------------------------*/
+#projects {
+  background-color: #a1b9c8;
+}
+
+/* About
+------------------------------------------------*/
+#about {
+  background-color: #554a56;
+}
+
+/* Contact
+------------------------------------------------*/
+footer {
+  background-color: #1b182e;
+}
