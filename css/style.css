@@ -62,12 +62,13 @@ a {
 
 #logo {
   text-align: center;
-  padding: 0 3%;
+  width: 20%;
+  font-family: Pacifico, cursive;
 }
 
 nav {
   list-style-type: none;
-  width: 94%;
+  width: 80%;
   text-align: center;
   display: inline-flex;
   justify-content: center;
