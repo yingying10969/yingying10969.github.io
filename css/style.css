@@ -12,6 +12,22 @@ h1 {
   background-color: #554a56;
 }
 
+a {
+  text-decoration: none;
+}
+#to-top {
+  position: fixed;
+  bottom: 4%;
+  right: 2%;
+  size: 300px 300px;
+  color: #f1f1f1;
+  border: 0;
+  padding: 0 15px;
+  line-height: 1.5;
+  border-radius: 7.5px;
+  color: #1b182e;
+  font-size: 1.5em;
+}
 /* Header
 ------------------------------------------------*/
 .menu-bar {
