@@ -44,9 +44,6 @@ ul {
   margin-bottom: 0;
 }
 
-button {
-}
-
 #projects,
 #about,
 #contact {
@@ -90,7 +87,7 @@ button {
 
 #logo {
   text-align: center;
-  width: 20%;
+  margin: 0 5%;
   font-family: "Pacifico", cursive;
   font-size: 1.5em;
 }
