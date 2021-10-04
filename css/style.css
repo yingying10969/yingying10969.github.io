@@ -41,7 +41,13 @@ a {
 }
 
 ul {
-  margin-bottom: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  display: inline-block;
 }
 
 #projects,
@@ -183,5 +189,33 @@ nav li a:focus {
 /* Contact
 ------------------------------------------------*/
 footer {
+  background-color: #1b182e;
+  text-align: center;
+}
+
+footer h2 {
+  margin-bottom: 0;
+}
+
+footer ul {
+  width: 50%;
+  margin-bottom: 50px;
+  display: inline-flex;
+}
+
+footer ul li {
+  flex-grow: 1;
+}
+
+footer ul li a {
+  text-decoration: underline;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+}
+
+small {
+  display: block;
   background-color: #1b182e;
 }
