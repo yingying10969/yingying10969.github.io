@@ -188,6 +188,30 @@ h3 {
 }
 
 h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.skills {
+  display: inline-flex;
+}
+
+.skill-list {
+  margin-right: 50px;
+  width: 300px;
+}
+
+.skill-list ul {
+  margin-bottom: 40px;
+}
+
+.skill-list ul li {
+  color: #1b182e;
+  background-color: #a1b9c8;
+  padding: 5px 10px;
+  margin-top: 10px;
+  margin-right: 7px;
+  border-radius: 5px;
   font-weight: 500;
 }
 
@@ -196,7 +220,7 @@ h4 {
   grid-template-columns: 48px;
   column-gap: 10px;
   background-color: #1b182e;
-  width: 50%;
+  width: 30%;
   padding: 20px;
   border-radius: 30px;
 }
