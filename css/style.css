@@ -62,15 +62,12 @@ ul li {
   right: 2%;
   size: 300px 300px;
   background-color: #f1f1f1;
+  color: #1b182e;
   border: 0;
   line-height: 1.5;
   border-radius: 7.5px;
   font-size: 1.5em;
-}
-
-#to-top a {
-  color: #1b182e;
-  padding: 0 15px;
+  padding: 3px 15px;
 }
 
 #to-top:hover {
@@ -241,7 +238,7 @@ h4 {
 }
 
 .word-cloud {
-  width: 40%;
+  width: 500px;
   display: block;
   margin: 60px 0;
 }
@@ -252,7 +249,6 @@ h4 {
 
 .skill-list {
   margin-right: 30px;
-  /* width: 100%; */
 }
 
 .skill-list ul {
