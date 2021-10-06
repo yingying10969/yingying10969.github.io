@@ -251,8 +251,8 @@ h4 {
 }
 
 .skill-list {
-  margin-right: 50px;
-  width: 300px;
+  margin-right: 30px;
+  /* width: 100%; */
 }
 
 .skill-list ul {
