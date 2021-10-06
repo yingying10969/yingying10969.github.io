@@ -92,8 +92,7 @@ ul li {
 }
 
 #logo {
-  text-align: center;
-  margin: 0 5%;
+  margin: 0 auto;
   font-family: "Pacifico", cursive;
   font-size: 1.5em;
 }
