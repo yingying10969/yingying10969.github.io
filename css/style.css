@@ -147,7 +147,7 @@ nav li a:focus {
 }
 
 .project-logo {
-  width: 300px;
+  width: 70%;
   margin-bottom: 25px;
 }
 
@@ -340,6 +340,11 @@ small {
   #to-top {
     font-size: 1.7em;
     padding: 8px 20px;
+  }
+
+  /*Project Logo*/
+  .project-logo {
+    width: 90%;
   }
 
   /*About*/
