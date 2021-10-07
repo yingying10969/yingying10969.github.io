@@ -207,7 +207,6 @@ h4 {
   grid-template-columns: 60px;
   column-gap: 10px;
   background-color: #1b182e;
-  width: 350px;
   padding: 20px;
   margin-left: 30px;
   margin-bottom: 50px;
@@ -370,8 +369,6 @@ footer ul li a:hover {
 
   /*Projects*/
   .project {
-    /* grid-template-rows: 0.5fr 2fr; */
-    /* grid-template-columns: 1fr; */
     display: block;
   }
 
@@ -392,12 +389,16 @@ footer ul li a:hover {
     justify-content: center;
   }
 
-  /*About*/
   .degree {
-    display: grid;
+    display: block;
+    text-align: center;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .degree-info ul li {
+    padding-left: 0;
   }
 
   #hobbies {
@@ -411,5 +412,70 @@ footer ul li a:hover {
 
   #word-cloud {
     margin: 60px auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  /*Global*/
+  #to-top {
+    font-size: 1.5em;
+    padding: 5px 15px;
+    bottom: 2%;
+  }
+
+  /*Header*/
+  h1 {
+    font-size: 3em;
+    padding: 100px 0;
+  }
+
+  nav {
+    width: 75%;
+  }
+
+  #logo {
+    font-size: 1em;
+  }
+
+  /*Project*/
+  .project-logo {
+    width: 95%;
+  }
+
+  /*About*/
+  .degree {
+    display: block;
+    text-align: center;
+  }
+
+  .degree-info ul li {
+    padding-left: 0;
+  }
+
+  .skills {
+    display: block;
+    text-align: center;
+  }
+
+  .skill-list {
+    margin-right: 0;
+  }
+
+  #hobbies li {
+    margin-top: 20px;
+    padding-right: 0;
+  }
+
+  /*Contact*/
+  footer ul {
+    display: block;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer ul li {
+    display: block;
+    padding: 10px 0;
   }
 }
