@@ -333,17 +333,22 @@ footer ul li a:hover {
   text-decoration: none;
 }
 
-small {
-  display: block;
-  background-color: #1b182e;
-}
-
 /* Responsive
 ------------------------------------------------*/
 @media screen and (max-width: 900px) {
+  /*Header*/
+  #logo {
+    font-size: 1.2em;
+  }
+
   /*About*/
   #about-info {
     padding-left: 0;
+  }
+
+  /*Contact*/
+  footer ul {
+    width: 80%;
   }
 }
 
