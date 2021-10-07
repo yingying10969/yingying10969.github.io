@@ -479,3 +479,14 @@ footer ul li a:hover {
     padding: 10px 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  /*Header*/
+  nav {
+    font-size: 1em;
+  }
+
+  #logo {
+    text-align: center;
+  }
+}
