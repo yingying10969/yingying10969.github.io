@@ -176,12 +176,12 @@ nav li a:focus {
   border-style: solid;
 }
 
-.project-button:hover {
+.project-button button:hover {
   color: #cecece;
   background-color: #1b182e;
 }
 
-.project-button:active {
+.project-button button:active {
   color: #1b182e;
   background-color: #f1f1f1;
   border-color: #f1f1f1;
