@@ -237,7 +237,7 @@ h4 {
 }
 
 .word-cloud {
-  width: 500px;
+  width: 80%;
   display: block;
   margin: 60px 0;
 }
@@ -328,10 +328,17 @@ small {
 
 /* Responsive
 ------------------------------------------------*/
-@media (max-width: 650px) {
+@media screen and (max-width: 900px) {
+  /*About*/
+  #about-info {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
   /*Global Styles*/
   #to-top {
-    font-size: 2em;
-    padding: 10px 25px;
+    font-size: 1.7em;
+    padding: 8px 20px;
   }
 }
