@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "D:\\website"
+    },
+    {
+      "path": "D:\\sudoku-solver"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "website"
+  }
+}

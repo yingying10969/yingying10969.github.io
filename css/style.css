@@ -145,7 +145,6 @@ nav li a:focus {
   grid-column: 1/2;
   margin: 0 auto;
   vertical-align: top;
-  width: 55%;
 }
 
 .project-logo {
@@ -247,12 +246,6 @@ h4 {
   margin: 5px 0;
 }
 
-#word-cloud {
-  width: 70%;
-  display: block;
-  margin: 60px 0;
-}
-
 .skills {
   display: inline-flex;
 }
@@ -273,6 +266,12 @@ h4 {
   margin-right: 7px;
   border-radius: 5px;
   font-weight: 500;
+}
+
+#word-cloud {
+  width: 75%;
+  display: block;
+  margin: 60px 0;
 }
 
 #hobbies {
@@ -377,10 +376,9 @@ footer ul li a:hover {
     margin: 20px auto;
   }
 
-  .project-img {
+  .project-img img {
     display: block;
     margin: 20px auto;
-    max-width: 220px;
     height: auto;
   }
 

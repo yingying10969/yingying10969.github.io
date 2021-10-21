@@ -30,13 +30,17 @@
             <h2>Projects</h2>
             <!-- Project 1: Pursuit -->
             <section class="project">
-                <!-- <div> -->
                 <img src="images/pursuit-02.png" class="project-logo">
-                <img 
-                src="images/Pursuit-black-phone.png"
-                alt="Homescreen of Pursuit app prototype"
-                class="project-img">
-                <br>
+                <picture class="project-img"> 
+                    <source srcset="images/Pursuit-black-phone-140px.png" media="(max-width: 320px)">
+                    <source srcset="images/Pursuit-black-phone.png" media="(max-width: 750px)">
+                    <source srcset="images/Pursuit-black-phone-150px.png" media="(max-width: 900px)">
+                    <source srcset="images/Pursuit-black-phone.png">                
+                    <img 
+                    src="images/Pursuit-black-phone.png"
+                    alt="Homescreen of Pursuit app prototype">
+                </picture>
+                <!-- <br> -->
                 <div class="project-info">
                     <p class="project-text">
                         Pursuit is a health and wellness social media app that aims 
@@ -57,7 +61,6 @@
                         <button>View Project</button>
                     </a>
                 </div>
-                <!-- </div> -->
             </section>
         </section>
         
@@ -82,7 +85,7 @@
             <div id="about-info">
                 <h3>Web development to me is...</h3>
                 <img 
-                    src="images/word-cloud.svg"
+                    src="images/word-cloud.png"
                     alt="interactive, engaging, rewarding, exciting, problem solving, 
                     innovative, communicative, imaginative, connective"
                     id="word-cloud"
@@ -96,6 +99,7 @@
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>JavaScript</li>
+                            <li>React</li>
                         </ul>
                     </div>
                     
@@ -115,6 +119,8 @@
                             <li>Java</li>
                             <li>Python</li>
                             <li>C</li>
+                            <li>SQL</li>
+                            <li>Unix</li>
                         </ul>
                     </div>
                 </div>
@@ -134,13 +140,13 @@
             <h2>Contact Me!</h2>
             <ul>
                 <li><a href="mailto:zhouying@live.ca">zhouying@live.ca</a></li>
-                <li><a href="https://github.com/yingying10969">Github</a></li>
+                <li><a href="https://github.com/yingying10969" target="_blank">Github</a></li>
                 <li>
-                    <a href="https://www.linkedin.com/in/ying-zhou-a979791a9/">
+                    <a href="https://www.linkedin.com/in/ying-zhou-a979791a9/" target="_blank">
                         LinkedIn
                     </a>
                 </li>
-                <li><a href="https://www.instagram.com/create.ying/?hl=en">Instagram</a></li>
+                <li><a href="https://www.instagram.com/create.ying/?hl=en" target="_blank">Instagram</a></li>
             </ul>
         </footer>
     </body>
