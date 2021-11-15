@@ -148,7 +148,6 @@ nav li a:focus {
 }
 
 .project-logo {
-  width: 60%;
   grid-row: 1/2;
   grid-column: 2/3;
 }
@@ -184,6 +183,14 @@ nav li a:focus {
   color: #1b182e;
   background-color: #f1f1f1;
   border-color: #f1f1f1;
+}
+
+#pursuit-logo {
+  width: 60%;
+}
+
+#sudoku-logo {
+  width: 90%;
 }
 
 /* About

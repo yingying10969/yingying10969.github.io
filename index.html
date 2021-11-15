@@ -28,9 +28,37 @@
         <!--*********** PROJECTS ********************************************-->
         <section id="projects">
             <h2>Projects</h2>
+            <!-- Project 2: Sudoku Puzzle Solver -->
+            <section class="project">
+                <img src="images/sudoku-logo.png" id="sudoku-logo" class="project-logo">
+                <picture class="project-img" id="sudoku-website"> 
+                    <source srcset="images/sudoku-website-230px.png" media="(max-width: 320px)">
+                    <source srcset="images/sudoku-website-250px.png" media="(max-width: 450px)">
+                    <source srcset="images/sudoku-website.png" media="(max-width: 750px)">
+                    <source srcset="images/sudoku-website-230px.png" media="(max-width: 950px)">
+                    <source srcset="images/sudoku-website-300px.png" media="(max-width: 1100px)">
+                    <source srcset="images/sudoku-website.png">                
+                    <img 
+                    src="images/sudoku-website.png"
+                    alt="Sudoku Puzzle Solver Website">
+                </picture>
+                <div class="project-info">
+                    <p class="project-text">
+                        Sudoku Puzzle Solver allows a user to enter any Sudoku puzzle, and
+                        the website will display a solution, if solvable.
+                    </p>
+                    <a 
+                        href="https://online-sudoku-solver.herokuapp.com/"
+                        target="_blank"
+                        class="project-button"
+                    >
+                        <button>View Project</button>
+                    </a>
+                </div>
+            </section>
             <!-- Project 1: Pursuit -->
             <section class="project">
-                <img src="images/pursuit-02.png" class="project-logo">
+                <img src="images/pursuit-02.png" id="pursuit-logo" class="project-logo">
                 <picture class="project-img"> 
                     <source srcset="images/Pursuit-black-phone-140px.png" media="(max-width: 320px)">
                     <source srcset="images/Pursuit-black-phone.png" media="(max-width: 750px)">
@@ -40,7 +68,6 @@
                     src="images/Pursuit-black-phone.png"
                     alt="Homescreen of Pursuit app prototype">
                 </picture>
-                <!-- <br> -->
                 <div class="project-info">
                     <p class="project-text">
                         Pursuit is a health and wellness social media app that aims 
@@ -110,6 +137,7 @@
                             <li>Illustrator</li>
                             <li>Figma</li>
                             <li>ArcGIS</li>
+                            <li>Pytest</li>
                         </ul>
                     </div>
                     
@@ -146,7 +174,7 @@
                         LinkedIn
                     </a>
                 </li>
-                <li><a href="https://www.instagram.com/create.ying/?hl=en" target="_blank">Instagram</a></li>
+                <li><a href="">Resume</a></li>
             </ul>
         </footer>
     </body>
